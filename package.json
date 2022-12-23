@@ -9,8 +9,8 @@
     "url": "git@github.com:scottjason/ts-boilerplate-react-redux.git"
   },
   "engines": {
-    "npm": "8.11.0",
-    "node": "16.15.1"
+    "npm": "8.19.2",
+    "node": "18.12.1"
   },
   "keywords": [],
   "scripts": {
@@ -55,14 +55,17 @@
     "@babel/preset-env": "^7.12.17",
     "@babel/preset-react": "^7.12.13",
     "@babel/preset-typescript": "^7.16.7",
+    "@testing-library/jest-dom": "^4.2.4",
     "@types/compression": "^1.7.2",
     "@types/dateformat": "^5.0.0",
     "@types/express": "^4.17.13",
+    "@types/jest": "^29.2.4",
     "@types/node": "^17.0.45",
     "@types/prop-types": "^15.7.5",
     "@types/react": "^18.0.14",
     "@types/react-dom": "^18.0.5",
     "@types/react-redux": "^7.1.24",
+    "@types/testing-library__jest-dom": "^5.14.5",
     "@types/uuid": "^8.3.4",
     "@typescript-eslint/parser": "^5.25.0",
     "babel-loader": "^8.2.2",
@@ -94,6 +97,7 @@
     "pretty-quick": "^3.1.0",
     "prop-types": "^15.8.1",
     "style-loader": "^3.3.1",
+    "ts-jest": "^29.0.3",
     "ts-loader": "^9.2.6",
     "typescript": "^4.6.4",
     "webpack": "^5.23.0",
